@@ -6,4 +6,6 @@ First building the container:
 Next, running the container:
 `docker run --rm python-examples python $PATH_TO_FILE`
 
+where `path` variable to the file is something like `./basic_examples/string_manipulation/source.py`
+
 In case, there is a infinite loop running the program, use `exit` to abort the container.
