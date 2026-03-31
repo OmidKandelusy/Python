@@ -50,8 +50,5 @@ if os.path.exists(venv_path):
     shutil.rmtree(venv_path)
     print(f"Removed virtual environment at {venv_path}\n")
     print("NOTE")
-    print(
-        "If ran this via vs-code, re-select interpereter to fix potential caching issue"
-    )
 else:
     print("No .venv folder found, skipping cleanup.")
